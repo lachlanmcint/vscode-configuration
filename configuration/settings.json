@@ -1,0 +1,45 @@
+{
+  // Editor
+  "workbench.editor.wrapTabs": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.rulers": [
+    // For consistency, match up with the One Dark Pro Darker theme colours
+    // https://github.com/Binaryify/OneDark-Pro/blob/master/themes/OneDark-Pro-darker.json
+    {
+      "column": 80,
+      "color": "#3b4048",
+    },
+    {
+      "column": 120,
+      "color": "#e06c75",
+    },
+  ],
+
+  // Font and lines
+  "editor.fontSize": 16,
+  "editor.lineHeight": 24,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+
+  // Theme
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "oneDarkPro.bold": true,
+
+  // Sidebar
+  "workbench.sideBar.location": "right",
+
+  // File editing behaviour
+  "files.autoSave": "afterDelay",
+
+  // Language preferences
+  "[json]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+  },
+
+  // Git and diff preferences
+  "git.autofetch": true,
+  "git.confirmSync": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+}
